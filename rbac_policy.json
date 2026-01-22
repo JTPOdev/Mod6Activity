@@ -1,0 +1,24 @@
+{
+    "guest": [
+        "read_public"
+    ],
+    "user": [
+        "read_public",
+        "write_own",
+        "read_own"
+    ],
+    "editor": [
+        "read_public",
+        "write_own",
+        "read_own",
+        "edit_public"
+    ],
+    "admin": [
+        "read_public",
+        "write_own",
+        "read_own",
+        "edit_public",
+        "delete_any",
+        "manage_users"
+    ]
+}
